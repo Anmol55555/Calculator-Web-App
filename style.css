@@ -1,0 +1,90 @@
+
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+}
+
+.outer-calc {
+    width:35%;
+    background-color: black; 
+    border-radius: 1.6rem;
+    border: 3px solid white;
+}
+
+.inputClass {
+    height: 7.5rem;
+    font-size: 2rem;
+    border-radius: 1.6rem 1.6rem 0 0;
+    text-align: right;
+    outline: none;
+}
+
+.btnClass {
+    height: 4.5rem;
+    width: 4.5rem;
+    margin: auto;
+    border-radius: 100%;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 2rem;
+}
+
+.btnClass:hover {
+    font-size : 2.2rem;
+}
+
+.btn-padding {
+    padding: 1.5rem 0 0 0;
+}
+
+#equalBtn {
+    background-color: #ff073a;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  
+    .heading {
+        font-size: 3rem;
+    }
+    
+    .outer-calc {
+        width:100%;
+        border: none;
+    }
+
+    .inputClass {
+        height: 7.5rem;
+        font-size: 2rem;
+        border-radius: 0.6rem 0.6rem 0 0;
+        text-align: right;
+    }
+
+    .btnClass {
+        height: 3rem;
+        width: 3rem;
+        font-size: 1.6rem;
+    }
+
+    .btnClass:hover {
+        font-size : 1.8rem;
+    }
+
+}
+
+
+
+
+
+
+
+
